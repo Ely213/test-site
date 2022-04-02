@@ -1,0 +1,46 @@
+html {
+    background-image: url(https://i.imgur.com/IwL8bch.png);
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+}
+h1 {
+    cursor: help;
+    margin: 0;
+    text-align: center;
+    
+  
+    
+}
+form {
+    margin: 0 auto;
+    background-image: url(https://i.pinimg.com/originals/5e/78/68/5e7868c61e8ae310b79e72bbac0fc917.png);
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    color: white;
+    box-shadow: -5px 4px 3px rgb(0, 0, 0)
+}
+.group {
+    margin: 10px;
+    padding: 5px
+}
+label {
+    padding-left:30px;
+    text-align: center;
+}
+input {
+    width:400px;
+    height:25px;
+    border-radius: 5px/5px;
+    box-shadow: -3px 2px 2px rgb(0, 0, 0);
+}
+button {
+    cursor: pointer;
+    width: 150px;
+    height: 30px;
+    box-shadow: -3px 2px 2px rgb(0, 0, 0);
+}
+button:hover {
+    opacity: .80;
+    transform: scale(1.3);
+}

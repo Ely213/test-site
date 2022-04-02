@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Form</title>
+    <link href="styles/style3.css" rel="stylesheet" type="text/css">
+</head>
+  <body>
+      <form action="">
+          <h1 title="registration">Registration</h1>
+          <div class="group">
+              <input type="text" placeholder="Login" required minlength="5" pattern="[\x1F-\xBF]*" >
+              <label for="">Только латиница и цифры(не менее 5 символов)</label>
+          </div>
+          <div class="group">
+              <input type="email" placeholder="Email" required autocomplete="on">
+          </div>
+          <div class="group">
+              <input type="password" placeholder="Password" required minlength="8" maxlength="25" pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*" autocomplete="on">
+              <label for="">Поле пароля: Минимум 8 символов, одна цифра, одна буква в верхнем регистре и одна в нижнем</label>
+          </div>
+          <div class="group">
+              <input type="password" placeholder="Password again" required minlength="8" maxlength="25" pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*" autocomplete="on">
+              <label for="">Поле пароля: Минимум 8 символов, одна цифра, одна буква в верхнем регистре и одна в нижнем</label>
+          </div>
+          <div class="group">
+              <center><button>Registration</button></center>
+          </div>
+      </form>
+  </body>
+</html>

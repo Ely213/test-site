@@ -1,0 +1,33 @@
+html {
+    font-size: 10px; /* ׀אחלונ באחמגמדמ רנטפעא */
+    font-family: 'Oswald', sans-serif; /* ֱאחמגûי רנטפע */
+    background-image: url(https://i.imgur.com/IwL8bch.png);
+}
+body {
+    width: 600px;
+    margin: 0 auto;
+    background-color: #FF9500;
+    padding: 0 20px 20px 20px;
+    border: 5px solid grey;
+    text-align: center;
+    background-image: url(https://i.pinimg.com/originals/5e/78/68/5e7868c61e8ae310b79e72bbac0fc917.png);
+}
+h1 {
+    font-size: 70px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px 0;
+    color: #00539F;
+    text-shadow: 3px 3px 1px black;
+    border-bottom: 10px;
+}
+
+p, li {
+    font-size: 16px;
+    line-height: 1;
+    letter-spacing: 1px;
+}
+img {
+    display: block;
+    margin: 0 auto;
+}
